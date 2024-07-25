@@ -13,12 +13,14 @@
     {
       "name": "index",
       "title": "Run llamafile",
-      "description": "Run local llamafile and display status and actions in menubar",
-      "mode": "menu-bar"
+      "description": "Display llamafile server status in menubar. \n Add convienent tmux commands to launch and attach session.",
+      "mode": "menu-bar",
+      "interval": "10s"
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.79.1"
+    "@raycast/api": "^1.79.1",
+    "@raycast/utils": "^1.16.2"
   },
   "devDependencies": {
     "@raycast/eslint-config": "^1.0.8",
