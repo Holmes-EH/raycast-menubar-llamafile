@@ -1,3 +1,3 @@
-# llamafile
+# Raycast llamafile Server Status Menubar
 
-Run local llamafile and display status and actions in menubar
+Display llamafile server status in menubar. \n Add convienent tmux commands to launch and attach session.
